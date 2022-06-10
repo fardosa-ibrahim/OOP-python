@@ -4,7 +4,6 @@ class Student:
         self.first_name=first_name
         self.last_name=last_name
         self.age=age
-      
         self.country=country
     def greet(self):
         return f"Hello {self.first_name} {self.last_name} welcome to {self.school} how is {self.country}"
